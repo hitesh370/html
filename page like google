@@ -1,0 +1,118 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+li {
+  display: block;
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+button a {}
+
+.google-logo {
+  position: absolute;
+  margin: 10em 32.5em;
+}
+
+.feeling-lucky {
+  position: absolute;
+  margin: 20em 32.5em;
+  width: 400px;
+}
+
+#searchbar {
+  position: absolute;
+  top: 260px;
+  left: 375px;
+  width: 580px;
+  height: 30px;
+  border: 1px solid #cdcdcd;
+}
+
+#search_button {
+  position: absolute;
+  top: 310px;
+  left: 550px;
+  border: 1px solid #dcdcdc;
+  border-color: rgba(0, 0, 0, 0.1);
+  color: #444!important;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 8px;
+  background: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+  border-radius: 2px;
+}
+
+#lucky_button {
+  position: absolute;
+  top: 310px;
+  left: 680px;
+  border: 1px solid #dcdcdc;
+  border-color: rgba(0, 0, 0, 0.1);
+  color: #444!important;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 8px;
+  background: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+  border-radius: 2px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  margin: : 20em;
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Google Homepage</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+
+  <nav class="header">
+    <div class="col-xs-8">
+      <ul>
+        <li><a href="#"><i class="fa fa-2x fa-user-circle-o" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-2x fa-bell" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-2x fa-bars" aria-hidden="true"></i></a></li>
+        <li><a href="#">Images</a></li>
+        <li><a href="#">Mail</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="google-logo">
+    <img src="images/google-logo.jpg" height="85px" width="250px" alt="google-logo" title="google-logo">
+  </div>
+  <div>
+    <input type="text" name="searchBar" id="searchbar" placeholder="Search Google or Type URL">
+    <input type="button" value="Google Search" id="search_button">
+
+  </div>
+  <input type="button" value="I'm Feeling Lucky" id="lucky_button">
+  </br>
+  <div class="footer">
+    <a href="#">Advertising</a><a href="#">Business</a><a href="#">About</a>
+  </div>
+</body>
+
+</html>
